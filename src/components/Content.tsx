@@ -15,6 +15,9 @@ export function Content({
 }: ContentProps) {
   return (
     <div className="content" style={{ width: "30%" }}>
+      {tableCards && tableCards?.length !== 0 && (
+        <h2>Количество кард на столе: {tableCards.length}</h2>
+      )}
       {!(selectedCard === null) && (
         <div style={{ marginBottom: "2em" }}>
           <img src={selectedCard?.imageUrl} />
