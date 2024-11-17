@@ -1,21 +1,19 @@
 .main {
   display: flex;
 }
-
 .content {
   flex-grow: 0.6;
   text-align: center;
 }
 #menu {
   flex-grow: 0.2;
-  height: 800px;
+
   overflow: hidden;
   overflow-y: scroll;
   border: black 1px solid;
 }
 #stats {
   flex-grow: 0.2;
-  height: 800px;
   overflow: hidden;
   overflow-y: scroll;
   border: black 1px solid;

@@ -186,6 +186,3 @@ const cardExample = {
 
 export type Card = typeof cardExample;
 export type Cards = Card[];
-export type ApiCards = {
-  cards: Cards;
-};
